@@ -12,7 +12,7 @@ function SliderAnimateCss(options) {
   next.onclick = this._onArrowsClick.bind(this);
   prev.onclick = this._onArrowsClick.bind(this);
 
-  console.log(1);
+  console.log(2);
 }
 SliderAnimateCss.prototype._onArrowsClick = function (event) {
   if(event.target == this._next) {
