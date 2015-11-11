@@ -1,0 +1,60 @@
+$icon-font-path: '../fonts/';
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+body {
+  background: #c9eefb;
+}
+
+.slider {
+  position: relative;
+  width: 40%;
+  margin: 0 auto;
+  &__item {
+
+  }
+
+}
+.prev, .next {
+  position: absolute;
+  border-radius: 20px;
+  background: #9faffa;
+  color: #fff;
+  width: 120px;
+  padding: 10px 0;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  top: 49%;
+  cursor: pointer;
+}
+.prev {
+  left: -120px;
+}
+.next {
+  right: -120px;
+}
+.article {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 500px;
+  background: rgba(255, 255, 255, 0.39);
+  &__title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #a0b0fb;
+    margin-bottom: 5px;
+  }
+  &__img {
+    &_item {
+      border-radius: 50%;
+      border: 2px solid white;
+    }
+  }
+  &__text {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
